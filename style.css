@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #90a4ae;
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #20263b;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+::selection {
+  background-color: #20263b;
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #010309;
+  color: #90a4ae;
+  font-family: "Sora", sans-serif;
+}
+
+main {
+  padding: 0rem 0rem 0rem 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: #90a4ae;
+  font-weight: 700;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 2rem 0rem;
+  width: 40rem;
+}
+
+nav {
+  position: fixed;
+  background-color: #060913;
+  width: fit-content;
+  height: 100vh;
+  transition: all 0.3s;
+}
+
+.element {
+  background-color: #010409;
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  transition: all 0.3s;
+}
+
+.element:hover {
+  cursor: pointer;
+  background-color: #90a4ae;
+  color: #010307;
+  border-radius: 0.8rem;
+}
+
+#checkbox {
+  width: 2rem;
+  height: 2.5rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hideNavBtn {
+  background-color: #0a0e1b;
+  width: 2rem;
+  height: 2.5rem;
+  border-radius: 0rem 5rem 5rem 0rem;
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+}
+
+#checkbox:checked + .hideNavBtn {
+  background-color: #0d6efd;
+}
+
+#__ {
+  margin-top: 10rem;
+  font-size: larger;
+  width: 50rem;
+}
+
+.quote {
+  font-weight: 700;
+}
+
+.rajakar {
+  font-size: 1.8rem;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
